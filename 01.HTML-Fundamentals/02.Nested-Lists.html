@@ -3,6 +3,16 @@
 
 <head>
     <title>Nested Lists</title>
+
+    <style>
+        .circle {
+            list-style-type: circle
+        }
+
+        .square {
+            list-style-type: square
+        }
+    </style>
 </head>
 
 <body>
@@ -18,10 +28,10 @@
                 <ol type="1">
                     <li>Nested Item 2.1</li>
                     <li>Nested Item 2.2
-                        <ul style="list-style-type:circle">
+                        <ul class="circle">
                             <li>Nested Item 2.2.1</li>
                             <li>Nested Item 2.2.2
-                                <ul style="list-style-type:square">
+                                <ul class="square">
                                     <li>Nested Item 2.2.2.1</li>
                                     <li>Nested Item 2.2.2.2</li>
                                 </ul>
@@ -32,7 +42,7 @@
                 </ol>
             </li>
             <li>List Item 3
-                <ul style="list-style-type:circle">
+                <ul class="circle">
                     <li>Nested Item 3.1</li>
                     <li>Nested Item 3.2</li>
                     <li>Nested Item 3.3</li>
